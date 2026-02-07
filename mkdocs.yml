@@ -11,6 +11,9 @@ nav:
   # - 其它资源: other-resources/index.md
 theme: material
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
 
